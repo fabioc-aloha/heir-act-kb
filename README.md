@@ -25,25 +25,27 @@ Your AI assistant (Copilot, Claude, Cursor, etc.) now has access to the skill.
 
 ## What's Here
 
-### [Skills](skills/) — Hard Knowledge (51 skills)
+### [Skills](skills/) — Hard Knowledge (56 skills)
 
 Domain-specific knowledge that saves debugging time:
 
 | Category | Count | What They Solve |
 |----------|-------|-----------------|
-| [Security](skills/security/) | 5 | XSS, shell injection, input validation, path traversal |
+| [Security](skills/security/) | 6 | XSS, injection, API hardening, path traversal |
 | [Quality](skills/quality/) | 8 | Audit patterns, QA, testing, date arithmetic |
 | [Documentation](skills/documentation/) | 6 | Mermaid, docs decay, count drift, version stamps |
 | [Architecture](skills/architecture/) | 5 | Defaults-plus-overrides, pipelines, scoring |
 | [Build](skills/build/) | 5 | Path rot, config separation, data-driven layouts |
-| [Cross-Platform](skills/cross-platform/) | 4 | Path handling, line endings, shell quirks |
-| [Azure](skills/azure/) | 3 | MSI identity, subscription context, Cost API |
+| [Cross-Platform](skills/cross-platform/) | 5 | Path handling, regex, line endings, shell quirks |
+| [Azure](skills/azure/) | 4 | MSI, subscription, Cost API, MSAL singleton |
 | [VitePress](skills/vitepress/) | 3 | Iframe embed, clean URLs, SPA routing |
 | [Academic](skills/academic/) | 2 | Editorial judgment, survey verification |
 | [Data](skills/data/) | 2 | Temp-file analysis, TMDL linter |
 | [GitHub](skills/github/) | 2 | README override, Wiki structure |
 | [Visual](skills/visual/) | 2 | Image embedding, storage split |
 | [Windows/Node](skills/windows-node/) | 2 | Winget collisions, PAT expiration |
+| [Testing](skills/testing/) | 1 | Python mock patching location |
+| [JavaScript](skills/javascript/) | 1 | Boolean string trap |
 | [Cloud](skills/cloud/) | 1 | Azure SWA gotchas (12 issues) |
 | [GitHub Actions](skills/github-actions/) | 1 | Version upgrades |
 

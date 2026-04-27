@@ -1,12 +1,12 @@
 # Skill Catalog
 
-**51 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**56 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
 ---
 
-## Security (5)
+## Security (6)
 
 **allowlist-over-blocklist** | `skills/security/allowlist-over-blocklist/` | security, validation, input
 - Trigger: Validating user input, URLs, file extensions, commands
@@ -27,6 +27,10 @@
 **path-traversal-prevention** | `skills/security/path-traversal-prevention/` | security, filesystem, path
 - Trigger: Writing files based on user input, copying directories
 - Pattern: Validate `path.resolve()` stays within destination root
+
+**api-security-hardening** | `skills/security/api-security-hardening/` | security, api, authentication
+- Trigger: Building HTTP API, security review checklist
+- Pattern: 4-layer defense (rate limiting, JWT validation, CORS, input validation)
 
 ---
 
@@ -142,7 +146,7 @@
 
 ---
 
-## Cross-Platform (4)
+## Cross-Platform (5)
 
 **terminal-backtick-hazard** | `skills/cross-platform/terminal-backtick-hazard/` | terminal, shell, powershell
 - Trigger: Command with backticks failing, markdown in terminal args
@@ -159,6 +163,10 @@
 **vscode-cross-platform-paths** | `skills/cross-platform/vscode-cross-platform-paths/` | vscode, cross-platform
 - Trigger: Finding VS Code user data directory
 - Pattern: `os.platform()` switch (Windows/macOS/Linux have different paths)
+
+**powershell-regex-backreference** | `skills/cross-platform/powershell-regex-backreference/` | powershell, regex, cross-platform
+- Trigger: Regex replacement with backreference + digit gives wrong result
+- Pattern: Use `${1}` syntax when backreference is followed by digit (`$10` = group 10)
 
 ---
 
@@ -190,7 +198,7 @@
 
 ---
 
-## Azure (3)
+## Azure (4)
 
 **azure-identity-msi** | `skills/azure/azure-identity-msi/` | azure, managed-identity, rbac
 - Trigger: Verifying Managed Identity permissions, RBAC debugging
@@ -203,6 +211,10 @@
 **azure-cost-management-api** | `skills/azure/azure-cost-management-api/` | azure, cost-management, powershell
 - Trigger: Cost Management API "Unsupported Media Type" error
 - Pattern: Write JSON to file, reference with `@$path` (inline JSON breaks in PowerShell)
+
+**msal-singleton-pattern** | `skills/azure/msal-singleton-pattern/` | azure, msal, authentication
+- Trigger: MSAL.js silent auth failures, "interaction_in_progress" errors
+- Pattern: Single `PublicClientApplication` instance with async `initialize()`
 
 ---
 
@@ -251,6 +263,22 @@
 **tmdl-linter-false-positives** | `skills/data/tmdl-linter-false-positives/` | data, tmdl, power-bi
 - Trigger: VS Code TMDL linter showing errors on valid syntax
 - Pattern: `description` on measures is valid — linter is wrong, test in Power BI
+
+---
+
+## Testing (1)
+
+**python-mock-patching-location** | `skills/testing/python-mock-patching-location/` | testing, python, mocking
+- Trigger: Mock not working, real function still called
+- Pattern: Patch where function is USED, not where it's DEFINED
+
+---
+
+## JavaScript (1)
+
+**boolean-string-trap** | `skills/javascript/boolean-string-trap/` | javascript, typescript, debugging
+- Trigger: Boolean check always true, localStorage/URL param issues
+- Pattern: `"false"` is truthy; use `=== 'true'` or `JSON.parse()`
 
 ---
 
