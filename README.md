@@ -79,6 +79,55 @@ If you can find it with a simple search, it doesn't belong here.
 
 ---
 
+## AI Assistant Auto-Discovery
+
+This KB includes [`.github/copilot-instructions.md`](.github/copilot-instructions.md) — instructions that tell AI assistants how to browse and use skills automatically.
+
+### For GitHub Copilot / VS Code
+
+Clone this repo as a submodule or reference folder:
+
+```bash
+# In your project
+git submodule add https://github.com/fabioc-aloha/heir-act-kb.git kb
+
+# Or just clone alongside
+git clone https://github.com/fabioc-aloha/heir-act-kb.git
+```
+
+When the AI sees the `.github/copilot-instructions.md`, it learns:
+- **How to browse** — Check CATALOG.md for relevant skills
+- **When to load** — Problem→Skill mapping table
+- **Proactive suggestions** — Pattern recognition triggers
+
+### For Other AI Assistants (Claude, ChatGPT, etc.)
+
+Point the assistant at this repo:
+
+```
+I have access to a knowledge base at https://github.com/fabioc-aloha/heir-act-kb
+
+When I mention a problem, check the CATALOG.md for relevant skills.
+Load the SKILL.md file before giving advice.
+```
+
+Or paste the [copilot-instructions.md](.github/copilot-instructions.md) content into your system prompt.
+
+### Problem→Skill Quick Reference
+
+| Problem | Skill |
+|---------|-------|
+| Shell command fails silently | `terminal-backtick-hazard` |
+| XSS / markdown rendering | `markdown-sanitization-chain` |
+| Azure CLI returns empty | `azure-subscription-context` |
+| Azure SWA issues | `azure-swa-gotchas` |
+| Mermaid not rendering | `mermaid-mode-fragility` |
+| String comparison fails Windows | `line-ending-parsing` |
+
+[Full mapping in copilot-instructions.md →](.github/copilot-instructions.md)
+
+---
+
 ## Contributing
 
 Found a gotcha worth sharing? [See the contribution guide](CONTRIBUTING.md).
