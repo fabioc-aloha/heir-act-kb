@@ -1,6 +1,6 @@
 # Skill Catalog
 
-**56 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**96 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
@@ -355,3 +355,156 @@
 | vitepress | vitepress-iframe-embed, vitepress-clean-urls, vitepress-spa-routing |
 | vscode | vscode-cross-platform-paths |
 | windows | node-winget-collision, pat-expiration-silent |
+
+---
+
+## Promoted from Master Alex (40 skills, v0.4.x)
+
+These are full procedural skills (150-1600 lines each) promoted from the Master Alex inheritable skill set.
+Unlike the bite-sized gotcha skills above, these are deep procedures that encode hours of engineering judgment.
+Drop-in compatible with any `.github/skills/` consumer (Copilot, Claude, Cursor).
+
+### Critical Thinking (6)
+
+**act-pass** | `skills/critical-thinking/act-pass/` | reasoning, decision-making, act
+- Run the 7-step Artificial Critical Thinking pass — Materiality → Hypothesise → Alternatives → Discon
+
+**critical-thinking** | `skills/critical-thinking/critical-thinking/` | reasoning, alternatives, bias
+- Challenge what you think is right — alternative hypotheses, missing data, evidence quality, bias det
+
+**hypothesis-driven-debugging** | `skills/critical-thinking/hypothesis-driven-debugging/` | debugging, scientific-method
+- Investigate build failures, test errors, runtime crashes, or unexpected behavior through systematic 
+
+**root-cause-analysis** | `skills/critical-thinking/root-cause-analysis/` | debugging, 5-whys, investigation
+- Find the true source, not symptoms — systematic debugging from observation to permanent fix
+
+**rubber-duck-debugging** | `skills/critical-thinking/rubber-duck-debugging/` | debugging, thinking-partner
+- Be a thinking partner. The answer often emerges when explaining the problem.
+
+**problem-framing-audit** | `skills/critical-thinking/problem-framing-audit/` | reasoning, frame-audit, type-iii-error
+- Step-back protocol — restate, generalise, specialise, invert, ask why, pre-mortem, check stakeholder
+
+### AI / LLM Development (8)
+
+**mcp-development** | `skills/ai-llm/mcp-development/` | mcp, server, primitives, transport
+- **Domain**: AI Infrastructure
+
+**mcp-builder** | `skills/ai-llm/mcp-builder/` | mcp, tools, registration
+- Build MCP servers for LLM tool integration — Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET
+
+**multi-agent-orchestration** | `skills/ai-llm/multi-agent-orchestration/` | agents, delegation, synthesis
+- Coordinate multiple AI agents for complex tasks — decomposition, delegation, and synthesis
+
+**prompt-engineering** | `skills/ai-llm/prompt-engineering/` | prompts, patterns, eval
+- Craft effective prompts that get the best results from language models.
+
+**prompt-builder** | `skills/ai-llm/prompt-builder/` | prompt-md, frontmatter, authoring
+- Create and validate .prompt.md files that pass brain-qa on first attempt
+
+**rag-architecture** | `skills/ai-llm/rag-architecture/` | rag, retrieval, vector-store
+- Build retrieval-augmented generation systems that ground LLMs in your data.
+
+**ai-agent-design** | `skills/ai-llm/ai-agent-design/` | agents, reasoning, tools
+- Design autonomous AI agents that reason, plan, and execute tasks
+
+**llm-model-selection** | `skills/ai-llm/llm-model-selection/` | models, selection, cost-quality
+- Choosing the right model for the task — power vs. cost vs. speed.
+
+### Communication (4)
+
+**executive-storytelling** | `skills/communication/executive-storytelling/` | pyramid, narrative, leadership
+- Data-driven narrative construction, stakeholder management, and influencing senior leadership decisi
+
+**meeting-efficiency** | `skills/communication/meeting-efficiency/` | agenda, facilitation, async
+- Agenda design, time boxing, decision capture, async alternatives, and productive facilitation
+
+**stakeholder-management** | `skills/communication/stakeholder-management/` | influence, communication, alignment
+- Influence mapping, communication strategies, and expectation management for complex organizations
+
+**status-reporting** | `skills/communication/status-reporting/` | rag, dashboards, escalation
+- Create stakeholder-friendly project status updates and progress reports
+
+### Security (2)
+
+**security-review** | `skills/security/security-review/` | owasp, stride, audit
+- Defend before attackers find the gaps - OWASP, STRIDE, and Microsoft SFI
+
+**security-threat-modeler** | `skills/security/security-threat-modeler/` | stride, threat-modeling, dfd
+- Analyze codebase architecture to generate a STRIDE-based threat model with data flow diagrams, trust
+
+### Quality (5)
+
+**code-review** | `skills/quality/code-review/` | review, pr, feedback
+- Systematic code review for correctness, security, and growth — not just style enforcement
+
+**testing-strategies** | `skills/quality/testing-strategies/` | testing, coverage, risk
+- Systematic testing for confidence without over-testing — the right test at the right level
+
+**test-quality-analysis** | `skills/quality/test-quality-analysis/` | testing, smells, assertions
+- Analyze test code quality to detect coverage-only tests, test smells, and low-value assertions. Use 
+
+**tech-debt-discovery** | `skills/quality/tech-debt-discovery/` | debt, inventory, prioritization
+- Systematic technical debt inventory and prioritization. Use when asked to find tech debt, show me th
+
+**refactoring-patterns** | `skills/quality/refactoring-patterns/` | refactoring, extract, rename
+- Safe transformations — same behavior, better structure.
+
+### Performance (1)
+
+**performance-profiling** | `skills/performance/performance-profiling/` | cpu, memory, network, bottleneck
+- CPU, memory, network bottleneck analysis — systematic performance investigation
+
+### Operations (2)
+
+**postmortem** | `skills/operations/postmortem/` | incident, root-cause, timeline
+- Write a postmortem for a regression or incident that escaped to production, broke real users, and tr
+
+**observability-monitoring** | `skills/operations/observability-monitoring/` | logs, metrics, traces, alerts
+- Production visibility through logs, metrics, traces, and alerting — the three pillars of observabili
+
+### Data (2)
+
+**kql** | `skills/data/kql/` | kusto, log-analytics, queries
+- KQL language expertise for writing correct, efficient Kusto Query Language queries. Covers syntax go
+
+**database-design** | `skills/data/database-design/` | schema, normalization, indexing
+- Schema design, normalization, query optimization, and data modeling patterns
+
+### Infrastructure (2)
+
+**infrastructure-as-code** | `skills/infrastructure/infrastructure-as-code/` | iac, bicep, terraform, arm
+- **Domain**: DevOps & Cloud Engineering
+
+**bicep-avm-mastery** | `skills/infrastructure/bicep-avm-mastery/` | bicep, avm, azure-modules
+- Azure Verified Modules (AVM), Bicep best practices, and MCP-powered infrastructure as code for Azure
+
+### Azure (5)
+
+**microsoft-graph-api** | `skills/azure/microsoft-graph-api/` | graph, m365, rest
+- Comprehensive Microsoft Graph API reference for M365 service integration
+
+**microsoft-fabric** | `skills/azure/microsoft-fabric/` | fabric, lakehouse, medallion
+- Microsoft Fabric workspace management, governance, REST API patterns, and medallion architecture imp
+
+**azure-deployment-operations** | `skills/azure/azure-deployment-operations/` | deploy, production, operations
+- Production deployment patterns for Azure Static Web Apps, Container Apps, App Service, and infrastru
+
+**azure-openai-patterns** | `skills/azure/azure-openai-patterns/` | openai, rate-limit, content-safety
+- Azure OpenAI API patterns for rate limiting, function calling, error handling, and token optimizatio
+
+**entra-agent-id** | `skills/azure/entra-agent-id/` | entra, agent-id, app-registration
+- Microsoft Entra Agent ID (preview) — create OAuth2-capable AI agent identities via Microsoft Graph b
+
+### Architecture (2)
+
+**architecture-audit** | `skills/architecture/architecture-audit/` | consistency, audit, project-wide
+- Comprehensive **project** consistency review across code, documentation, diagrams, and configuration
+
+**api-design** | `skills/architecture/api-design/` | rest, graphql, versioning
+- Design APIs that developers love to use.
+
+### Design (1)
+
+**ui-ux-design** | `skills/design/ui-ux-design/` | design-system, accessibility, components
+- User interface design, user experience optimization, accessibility compliance, design systems
+
