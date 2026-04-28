@@ -1,4 +1,4 @@
-# Alex Knowledge Base (heir-act-kb)
+# Alex Skill Mall (Alex_Skill_Mall)
 
 **Proposal: A Skill Store for Battle-Tested AI Development Knowledge**
 

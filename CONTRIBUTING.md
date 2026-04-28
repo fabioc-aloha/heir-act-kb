@@ -1,4 +1,4 @@
-# Contributing to Alex Knowledge Base
+# Contributing to Alex Skill Mall
 
 Thank you for sharing your hard-won knowledge. This guide explains how to contribute skills that meet our quality standards.
 

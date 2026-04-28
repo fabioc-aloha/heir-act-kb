@@ -1,4 +1,4 @@
-# Alex Knowledge Base
+# Alex Skill Mall
 
 **Battle-tested skills for AI-assisted development**
 
@@ -9,14 +9,14 @@ This is a curated collection of hard-won knowledge — the gotchas, patterns, an
 ## Quick Start
 
 ```bash
-# Clone the knowledge base
-git clone https://github.com/fabioc-aloha/heir-act-kb.git
+# Clone the skill mall
+git clone https://github.com/fabioc-aloha/Alex_Skill_Mall.git
 
 # Copy a skill to your project
-cp -r heir-act-kb/skills/security/shell-injection-prevention/ /your/project/.github/skills/
+cp -r Alex_Skill_Mall/skills/security/shell-injection-prevention/ /your/project/.github/skills/
 
 # Or copy a whole category
-cp -r heir-act-kb/skills/azure/ /your/project/.github/skills/
+cp -r Alex_Skill_Mall/skills/azure/ /your/project/.github/skills/
 ```
 
 Your AI assistant (Copilot, Claude, Cursor, etc.) now has access to the skill.
@@ -93,7 +93,7 @@ This KB includes [`.github/copilot-instructions.md`](.github/copilot-instruction
 
 ## KB Mall — External Skill Stores
 
-When heir-act-kb doesn't have what you need, browse other stores:
+When Alex Skill Mall doesn't have what you need, browse other stores:
 
 **[STORES.md](STORES.md)** — LLM-friendly directory of 15+ skill stores
 
@@ -111,13 +111,13 @@ Your AI can read STORES.md to research which store has your answer.
 Clone this repo as a submodule or reference folder:
 
 ```bash
-git submodule add https://github.com/fabioc-aloha/heir-act-kb.git kb
+git submodule add https://github.com/fabioc-aloha/Alex_Skill_Mall.git skill-mall
 ```
 
 ### For Other AI Assistants (Claude, ChatGPT, etc.)
 
 ```
-I have access to a skill store at https://github.com/fabioc-aloha/heir-act-kb
+I have access to a skill store at https://github.com/fabioc-aloha/Alex_Skill_Mall
 Consult the CATALOG.md for available skills. Load the SKILL.md before giving advice.
 ```
 

@@ -1,4 +1,4 @@
-# Alex Knowledge Base: Candidate Hard Skills Inventory
+# Alex Skill Mall: Candidate Hard Skills Inventory
 
 **Source**: `learned-patterns.instructions.md` (2026-04-25)
 **Assessment Date**: 2026-04-27

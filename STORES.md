@@ -1,6 +1,6 @@
 # Skill Store Directory
 
-LLM-friendly catalog of skill stores for GitHub Copilot and Claude Code. Use this to research external skills when heir-act-kb doesn't cover your need.
+LLM-friendly catalog of skill stores for GitHub Copilot and Claude Code. Use this to research external skills when Alex_Skill_Mall doesn't cover your need.
 
 ---
 
@@ -144,7 +144,7 @@ Before adopting skills from external stores:
 4. **Check security** — Stores like everything-claude-code include AgentShield
 5. **Verify format** — SKILL.md with YAML frontmatter is the converging standard
 
-## heir-act-kb Differentiation
+## Alex_Skill_Mall Differentiation
 
 This store focuses on:
 
@@ -154,4 +154,4 @@ This store focuses on:
 - **Quality over quantity** — 51 focused skills vs 200+ general ones
 - **No dependencies** — pure markdown, copy and use
 
-When heir-act-kb doesn't have what you need, check the stores above.
+When Alex_Skill_Mall doesn't have what you need, check the stores above.
