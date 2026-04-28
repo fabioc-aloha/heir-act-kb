@@ -1,7 +1,0 @@
-{
-    "$schema": "https://github.com/fabioc-aloha/Alex_ACT_Edition/blob/main/.github/config/cognitive-config.schema.json",
-    "version": "1.0",
-    "showConfidenceBadge": false,
-    "verbosity": "medium",
-    "notes": "Heir-owned. Tweak as you like — Edition upgrades will never overwrite this file."
-}

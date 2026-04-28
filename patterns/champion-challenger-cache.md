@@ -196,5 +196,4 @@ if (FORCE_REFRESH.includes(stageName)) {
 
 ## Related
 
-- [atomic-file-writes](atomic-file-writes.md) — Safe cache file updates
 - Token cost tracking patterns

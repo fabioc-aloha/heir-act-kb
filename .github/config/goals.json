@@ -1,7 +1,0 @@
-{
-    "$schema": "https://github.com/fabioc-aloha/Alex_ACT_Edition/blob/main/.github/config/goals.schema.json",
-    "version": "1.0",
-    "active_focus": null,
-    "goals": [],
-    "notes": "Heir-owned. Set `active_focus` to a goal id to route ambiguous requests toward it. Add entries to `goals` as: { id, title, description, status: 'active' | 'paused' | 'done' }."
-}
