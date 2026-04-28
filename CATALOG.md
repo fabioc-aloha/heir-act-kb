@@ -1,6 +1,6 @@
 # Skill Catalog
 
-**158 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**184 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
@@ -729,4 +729,101 @@ data viz, process & risk, media generation, academic writing, and personal effec
 
 **creative-writing** | `skills/productivity/creative-writing/` | fiction, narrative, structure
 - Patterns for fiction, narrative structure, character development, dialogue, and storytelling craft.
+
+---
+
+## Round 3: Domain & Specialty Skills (26 skills, v0.4.x)
+
+Third wave broadening the Mall beyond pure dev tooling — converters, domain-specific
+knowledge (healthcare, finance, legal, etc.), soft skills, publishing workflows, and brand management.
+
+### Converters (+5)
+
+**md-to-word** | `skills/converters/md-to-word/` | markdown, docx, pandoc
+- Convert Markdown with Mermaid diagrams and SVG illustrations to professional Word documents
+
+**docx-to-md** | `skills/converters/docx-to-md/` | docx, markdown, conversion
+- Convert Word documents (.docx) to clean Markdown with image extraction and pandoc cleanup
+
+**md-to-html** | `skills/converters/md-to-html/` | markdown, html, standalone
+- Convert Markdown to standalone HTML pages with embedded CSS, images, and Mermaid diagrams
+
+**md-to-eml** | `skills/converters/md-to-eml/` | markdown, email, rfc5322
+- Convert Markdown to RFC 5322 email (.eml) with inline CSS and CID images
+
+**converter-qa** | `skills/converters/converter-qa/` | testing, conversion, validation
+- Test harness for validating converter outputs with 284 assertions across all converter muscles
+
+### Azure / Microsoft (+1)
+
+**teams-app-patterns** | `skills/azure/teams-app-patterns/` | teams, m365, adaptive-cards
+- Full Teams app development patterns.
+
+### Domain Knowledge (+11)
+
+**healthcare-informatics** | `skills/domain/healthcare-informatics/` | clinical, hipaa, healthcare
+- Clinical terminology, healthcare compliance (HIPAA/HITECH), patient safety, and health data manageme
+
+**financial-analysis** | `skills/domain/financial-analysis/` | finance, modeling, analysis
+- Financial modeling, analysis frameworks, and regulatory awareness for business-minded professionals.
+
+**legal-compliance** | `skills/domain/legal-compliance/` | legal, contracts, compliance
+- Legal research, contract analysis, regulatory compliance, and case law citation for legal profession
+
+**grant-writing** | `skills/domain/grant-writing/` | grants, research, funding
+- Translate research vision into funded reality.
+
+**journalism** | `skills/domain/journalism/` | journalism, news, investigative
+- News writing, investigative reporting, source verification, editorial standards, and fact-checking f
+
+**sales-enablement** | `skills/domain/sales-enablement/` | sales, pipeline, enablement
+- Sales methodology, pipeline management, negotiation frameworks, and customer engagement patterns.
+
+**hr-people-operations** | `skills/domain/hr-people-operations/` | hr, talent, lifecycle
+- Talent acquisition, employee lifecycle, compensation, labor regulations, and organizational developm
+
+**career-development** | `skills/domain/career-development/` | career, resume, interview
+- Resume crafting, interview preparation, job search strategy, and professional growth planning.
+
+**game-design** | `skills/domain/game-design/` | game-design, mechanics, level-design
+- Game mechanics, level design, player psychology, systems balancing, and narrative design for game de
+
+**comedy-writing** | `skills/domain/comedy-writing/` | comedy, jokes, timing
+- Joke structure, comedic timing, set construction, callback patterns, and audience engagement for com
+
+**cross-cultural-collaboration** | `skills/domain/cross-cultural-collaboration/` | multicultural, collaboration, communication
+- **Domain**: Multicultural team communication, cultural intelligence, global collaboration
+
+### People & Learning (+4)
+
+**coaching-techniques** | `skills/people/coaching-techniques/` | coaching, grow, listening
+- GROW model, active listening, developmental feedback, and team growth approaches
+
+**counseling-psychology** | `skills/people/counseling-psychology/` | counseling, therapy, ethics
+- Therapeutic frameworks, assessment, ethical practice, and client documentation for counselors and ps
+
+**learning-psychology** | `skills/people/learning-psychology/` | learning, partnership, teaching
+- Help humans learn through partnership, not instruction.
+
+**cognitive-load** | `skills/people/cognitive-load/` | cognitive-load, chunking, scaffolding
+- Dont overwhelm — chunk, scaffold, summarize first.
+
+### Publishing (+4)
+
+**book-publishing** | `skills/publishing/book-publishing/` | pdf, pandoc, latex
+- Markdown-to-PDF pipeline via Pandoc and LuaLaTeX with emoji rendering, dual output, and print-ready 
+
+**kdp-publishing** | `skills/publishing/kdp-publishing/` | amazon, kdp, self-publishing
+- Amazon KDP self-publishing specs — cover requirements, interior formatting, spine formulas, ink opti
+
+**dissertation-defense** | `skills/publishing/dissertation-defense/` | dissertation, defense, doctoral
+- Comprehensive preparation for doctoral dissertation defense including timeline management, presentat
+
+**book-launch-content** | `skills/publishing/book-launch-content/` | book-launch, marketing, content
+- Generate launch-companion content for books — blog posts, author notes, and dogfooding angles that d
+
+### Design (+1)
+
+**brand-asset-management** | `skills/design/brand-asset-management/` | brand, hierarchy, assets
+- Brand hierarchy, visual identity, asset deployment, platform-specific branding guidelines
 
