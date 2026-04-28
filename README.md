@@ -52,6 +52,8 @@ Domain-specific knowledge that saves debugging time:
 
 [Browse the full catalog →](CATALOG.md)
 
+Looking for skills *outside* Alex_Skill_Mall? See [STORES.md](STORES.md) for the directory of external stores and [EXTERNAL-CATALOG.md](EXTERNAL-CATALOG.md) for an abbreviated, at-a-glance summary of what each store offers.
+
 ### [Scaffolds](scaffolds/) — Project Starters
 
 Pre-configured projects that actually deploy:

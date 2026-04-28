@@ -2,6 +2,8 @@
 
 LLM-friendly catalog of skill stores for GitHub Copilot and Claude Code. Use this to research external skills when Alex_Skill_Mall doesn't cover your need.
 
+> For an **abbreviated summary of what each store offers** (skill counts, MCP categories, headline contents), see [EXTERNAL-CATALOG.md](EXTERNAL-CATALOG.md). For Alex_Skill_Mall's own skills, see [CATALOG.md](CATALOG.md).
+
 ---
 
 ## Quick Reference
