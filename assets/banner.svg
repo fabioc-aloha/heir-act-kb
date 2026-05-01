@@ -65,34 +65,31 @@
   <path d="M1120,320 L1184,320 Q1200,320 1200,304" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.3"/>
   <path d="M1200,240 L1200,304" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.3"/>
 
-  <!-- Mall icon: open book with sparkle — knowledge marketplace -->
-  <g transform="translate(75, 65)" filter="url(#glow)">
-    <!-- Book spine -->
-    <path d="M60,10 L60,130" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/>
-    <!-- Left page (curved) -->
-    <path d="M60,10 Q30,5 10,15 L10,120 Q30,115 60,125" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Right page (curved) -->
-    <path d="M60,10 Q90,5 110,15 L110,120 Q90,115 60,125" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Left page lines (skills) -->
-    <line x1="22" y1="40" x2="50" y2="36" stroke="#38bdf8" stroke-width="1.5" opacity="0.5"/>
-    <line x1="22" y1="55" x2="50" y2="51" stroke="#818cf8" stroke-width="1.5" opacity="0.5"/>
-    <line x1="22" y1="70" x2="50" y2="66" stroke="#c084fc" stroke-width="1.5" opacity="0.5"/>
-    <line x1="22" y1="85" x2="45" y2="82" stroke="#fbbf24" stroke-width="1.5" opacity="0.4"/>
-    <line x1="22" y1="100" x2="40" y2="98" stroke="#34d399" stroke-width="1.5" opacity="0.4"/>
-    <!-- Right page lines -->
-    <line x1="70" y1="36" x2="98" y2="40" stroke="#38bdf8" stroke-width="1.5" opacity="0.5"/>
-    <line x1="70" y1="51" x2="98" y2="55" stroke="#818cf8" stroke-width="1.5" opacity="0.5"/>
-    <line x1="70" y1="66" x2="98" y2="70" stroke="#c084fc" stroke-width="1.5" opacity="0.5"/>
-    <line x1="70" y1="82" x2="95" y2="85" stroke="#fbbf24" stroke-width="1.5" opacity="0.4"/>
+  <!-- Mall icon: shield with checkmark — curated, quality-gated -->
+  <g transform="translate(120, 160)" filter="url(#glow)">
+    <!-- Shield outline -->
+    <path d="M0,-65 L55,-42 L55,12 Q55,52 0,70 Q-55,52 -55,12 L-55,-42 Z" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round" opacity="0.85"/>
+    <!-- Inner shield -->
+    <path d="M0,-48 L40,-30 L40,6 Q40,38 0,50 Q-40,38 -40,6 L-40,-30 Z" fill="none" stroke="url(#accent)" stroke-width="1.2" opacity="0.3"/>
+    <!-- Checkmark -->
+    <path d="M-18,6 L-6,18 L22,-12" fill="none" stroke="url(#goldAccent)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+    <!-- Subtle category bands -->
+    <line x1="-35" y1="-18" x2="35" y2="-18" stroke="#94a3b8" stroke-width="0.8" opacity="0.15"/>
+    <line x1="-28" y1="30" x2="28" y2="30" stroke="#94a3b8" stroke-width="0.8" opacity="0.15"/>
+    <!-- Corner accents -->
+    <circle cx="-50" cy="-35" r="2.5" fill="#38bdf8" opacity="0.5"/>
+    <circle cx="50" cy="-35" r="2.5" fill="#c084fc" opacity="0.5"/>
+    <circle cx="-35" cy="45" r="2" fill="#34d399" opacity="0.4"/>
+    <circle cx="35" cy="45" r="2" fill="#fbbf24" opacity="0.4"/>
     <!-- Sparkle top-right -->
-    <g transform="translate(95, -5)" opacity="0.9">
-      <line x1="0" y1="-10" x2="0" y2="10" stroke="url(#goldAccent)" stroke-width="2" stroke-linecap="round"/>
-      <line x1="-10" y1="0" x2="10" y2="0" stroke="url(#goldAccent)" stroke-width="2" stroke-linecap="round"/>
-      <line x1="-6" y1="-6" x2="6" y2="6" stroke="url(#goldAccent)" stroke-width="1.5" stroke-linecap="round"/>
-      <line x1="6" y1="-6" x2="-6" y2="6" stroke="url(#goldAccent)" stroke-width="1.5" stroke-linecap="round"/>
+    <g transform="translate(60, -55)" opacity="0.8">
+      <line x1="0" y1="-8" x2="0" y2="8" stroke="url(#goldAccent)" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-8" y1="0" x2="8" y2="0" stroke="url(#goldAccent)" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-5" y1="-5" x2="5" y2="5" stroke="url(#goldAccent)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="5" y1="-5" x2="-5" y2="5" stroke="url(#goldAccent)" stroke-width="1.5" stroke-linecap="round"/>
     </g>
     <!-- Small sparkle top-left -->
-    <g transform="translate(15, 0)" opacity="0.5">
+    <g transform="translate(-55, -50)" opacity="0.45">
       <line x1="0" y1="-5" x2="0" y2="5" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round"/>
       <line x1="-5" y1="0" x2="5" y2="0" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round"/>
     </g>

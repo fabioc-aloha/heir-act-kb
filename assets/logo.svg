@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38bdf8"/>
+      <stop offset="100%" style="stop-color:#c084fc"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="24" fill="url(#bg)"/>
+  <!-- Shield — curated, trusted, quality-gated -->
+  <g transform="translate(100, 88)">
+    <!-- Shield outline -->
+    <path d="M0,-55 L48,-35 L48,10 Q48,45 0,60 Q-48,45 -48,10 L-48,-35 Z" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round" opacity="0.8"/>
+    <!-- Inner shield -->
+    <path d="M0,-40 L35,-25 L35,5 Q35,32 0,45 Q-35,32 -35,5 L-35,-25 Z" fill="none" stroke="url(#accent)" stroke-width="1.2" opacity="0.3"/>
+    <!-- Checkmark inside -->
+    <path d="M-15,5 L-5,15 L18,-10" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+    <!-- Horizontal bands (categories) -->
+    <line x1="-30" y1="-15" x2="30" y2="-15" stroke="#94a3b8" stroke-width="0.8" opacity="0.2"/>
+    <line x1="-25" y1="25" x2="25" y2="25" stroke="#94a3b8" stroke-width="0.8" opacity="0.2"/>
+  </g>
+  <!-- Corner sparkles -->
+  <g opacity="0.6">
+    <circle cx="45" cy="38" r="2" fill="#38bdf8"/>
+    <circle cx="155" cy="38" r="2" fill="#c084fc"/>
+    <circle cx="45" cy="140" r="2" fill="#34d399"/>
+    <circle cx="155" cy="140" r="2" fill="#fbbf24"/>
+  </g>
+  <!-- Sparkle top -->
+  <g transform="translate(148, 30)" opacity="0.7">
+    <line x1="0" y1="-6" x2="0" y2="6" stroke="url(#gold)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="url(#gold)" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <text x="100" y="170" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e2e8f0" text-anchor="middle" letter-spacing="2">SKILL MALL</text>
+</svg>
