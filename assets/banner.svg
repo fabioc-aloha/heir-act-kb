@@ -65,33 +65,44 @@
   <path d="M1120,320 L1184,320 Q1200,320 1200,304" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.3"/>
   <path d="M1200,240 L1200,304" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.3"/>
 
-  <!-- Mall icon: stylized storefront -->
-  <g transform="translate(80, 60)" filter="url(#glow)">
-    <!-- Roof -->
-    <path d="M0,80 L50,20 L100,80" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Pillars -->
-    <line x1="15" y1="80" x2="15" y2="140" stroke="#94a3b8" stroke-width="2.5"/>
-    <line x1="85" y1="80" x2="85" y2="140" stroke="#94a3b8" stroke-width="2.5"/>
-    <!-- Base -->
-    <line x1="5" y1="140" x2="95" y2="140" stroke="#94a3b8" stroke-width="2.5"/>
-    <!-- Door -->
-    <rect x="35" y="100" width="30" height="40" rx="3" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.7"/>
-    <!-- Shelves (skills) -->
-    <line x1="20" y1="95" x2="32" y2="95" stroke="#fbbf24" stroke-width="1.5" opacity="0.6"/>
-    <line x1="68" y1="95" x2="80" y2="95" stroke="#fbbf24" stroke-width="1.5" opacity="0.6"/>
-    <line x1="20" y1="108" x2="32" y2="108" stroke="#38bdf8" stroke-width="1.5" opacity="0.6"/>
-    <line x1="68" y1="108" x2="80" y2="108" stroke="#38bdf8" stroke-width="1.5" opacity="0.6"/>
-    <line x1="20" y1="121" x2="32" y2="121" stroke="#c084fc" stroke-width="1.5" opacity="0.6"/>
-    <line x1="68" y1="121" x2="80" y2="121" stroke="#c084fc" stroke-width="1.5" opacity="0.6"/>
-    <!-- Star above roof -->
-    <polygon points="50,8 53,16 62,16 55,21 58,30 50,25 42,30 45,21 38,16 47,16" fill="url(#goldAccent)" opacity="0.9" transform="scale(0.9) translate(5,-12)"/>
+  <!-- Mall icon: open book with sparkle — knowledge marketplace -->
+  <g transform="translate(75, 65)" filter="url(#glow)">
+    <!-- Book spine -->
+    <path d="M60,10 L60,130" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Left page (curved) -->
+    <path d="M60,10 Q30,5 10,15 L10,120 Q30,115 60,125" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Right page (curved) -->
+    <path d="M60,10 Q90,5 110,15 L110,120 Q90,115 60,125" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Left page lines (skills) -->
+    <line x1="22" y1="40" x2="50" y2="36" stroke="#38bdf8" stroke-width="1.5" opacity="0.5"/>
+    <line x1="22" y1="55" x2="50" y2="51" stroke="#818cf8" stroke-width="1.5" opacity="0.5"/>
+    <line x1="22" y1="70" x2="50" y2="66" stroke="#c084fc" stroke-width="1.5" opacity="0.5"/>
+    <line x1="22" y1="85" x2="45" y2="82" stroke="#fbbf24" stroke-width="1.5" opacity="0.4"/>
+    <line x1="22" y1="100" x2="40" y2="98" stroke="#34d399" stroke-width="1.5" opacity="0.4"/>
+    <!-- Right page lines -->
+    <line x1="70" y1="36" x2="98" y2="40" stroke="#38bdf8" stroke-width="1.5" opacity="0.5"/>
+    <line x1="70" y1="51" x2="98" y2="55" stroke="#818cf8" stroke-width="1.5" opacity="0.5"/>
+    <line x1="70" y1="66" x2="98" y2="70" stroke="#c084fc" stroke-width="1.5" opacity="0.5"/>
+    <line x1="70" y1="82" x2="95" y2="85" stroke="#fbbf24" stroke-width="1.5" opacity="0.4"/>
+    <!-- Sparkle top-right -->
+    <g transform="translate(95, -5)" opacity="0.9">
+      <line x1="0" y1="-10" x2="0" y2="10" stroke="url(#goldAccent)" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-10" y1="0" x2="10" y2="0" stroke="url(#goldAccent)" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-6" y1="-6" x2="6" y2="6" stroke="url(#goldAccent)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="6" y1="-6" x2="-6" y2="6" stroke="url(#goldAccent)" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <!-- Small sparkle top-left -->
+    <g transform="translate(15, 0)" opacity="0.5">
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-5" y1="0" x2="5" y2="0" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
   </g>
 
   <!-- Title -->
   <text x="230" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#f8fafc" letter-spacing="-1">Alex Skill Mall</text>
 
   <!-- Tagline -->
-  <text x="230" y="148" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#94a3b8" font-weight="400">Battle-tested skills for AI-assisted development</text>
+  <text x="230" y="148" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#94a3b8" font-weight="400">Curated skills for any AI-assisted project</text>
 
   <!-- Accent line -->
   <rect x="230" y="164" width="120" height="3" rx="1.5" fill="url(#accent)" opacity="0.8"/>
