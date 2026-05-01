@@ -151,9 +151,9 @@ Follow the format above. Include:
 - Actionable solution
 - Evidence links
 
-### 3. Update CATALOG.md
+### 3. Regenerate CATALOG.json
 
-Add your skill to the appropriate category and tags index.
+Run `node scripts/generate-catalog.cjs` to update the machine-readable catalog.
 
 ### 4. Submit PR
 

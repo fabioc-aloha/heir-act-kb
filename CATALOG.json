@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "generated": "2026-05-01",
-  "count": 303,
+  "count": 301,
   "categories": [
     "academic",
     "ai-llm",
@@ -409,16 +409,6 @@
       "applyTo": "**/*saga*,**/*orchestration*",
       "triggers": [],
       "title": "Saga Orchestration"
-    },
-    {
-      "name": "semantic-codebase-intelligence",
-      "category": "architecture",
-      "path": "skills/architecture/semantic-codebase-intelligence/",
-      "description": "Deep structural analysis of a codebase — dependency mapping, architecture boundary detection, coupling/cohesion scoring, and dead code discovery. Use when asked to analyze codebase structure, map dependencies, find dead code, architecture analysis, coupling analysis, trace dependencies, or understand this system. Produces a Context Map with actionable insights.",
-      "tier": "standard",
-      "applyTo": "**/*semantic*,**/*codebase*,**/*intelligence*",
-      "triggers": [],
-      "title": "Semantic Codebase Intelligence"
     },
     {
       "name": "staged-transformation-pipeline",
@@ -1363,16 +1353,6 @@
       "applyTo": "**/*lint*,**/*clean*,**/*markdown*",
       "triggers": [],
       "title": "Lint-Clean Markdown Skill"
-    },
-    {
-      "name": "localization",
-      "category": "documentation",
-      "path": "skills/documentation/localization/",
-      "description": "Domain: Software localization, internationalization, multilingual application development",
-      "tier": "standard",
-      "applyTo": "**/*localization*",
-      "triggers": [],
-      "title": "Localization & Internationalization (i18n/l10n)"
     },
     {
       "name": "machine-readable-content",
