@@ -84,7 +84,7 @@
     <line x1="20" y1="121" x2="32" y2="121" stroke="#c084fc" stroke-width="1.5" opacity="0.6"/>
     <line x1="68" y1="121" x2="80" y2="121" stroke="#c084fc" stroke-width="1.5" opacity="0.6"/>
     <!-- Star above roof -->
-    <polygon points="50,8 53,16 62,16 55,21 58,30 50,25 42,30 45,21 38,16 47,16" fill="url(#goldAccent)" opacity="0.8" transform="scale(0.6) translate(33,-5)"/>
+    <polygon points="50,8 53,16 62,16 55,21 58,30 50,25 42,30 45,21 38,16 47,16" fill="url(#goldAccent)" opacity="0.9" transform="scale(0.9) translate(5,-2)"/>
   </g>
 
   <!-- Title -->
@@ -118,7 +118,7 @@
   <text x="230" y="268" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Drop a skill into <tspan fill="#94a3b8" font-family="Consolas, monospace">.github/skills/</tspan> and your AI assistant learns it instantly</text>
 
   <!-- Right side: floating skill cards -->
-  <g transform="translate(820, 45)" opacity="0.15">
+  <g transform="translate(820, 45)" opacity="0.25">
     <rect x="0" y="0" width="160" height="40" rx="8" fill="#38bdf8"/>
     <rect x="40" y="50" width="160" height="40" rx="8" fill="#818cf8"/>
     <rect x="10" y="100" width="160" height="40" rx="8" fill="#c084fc"/>
@@ -128,11 +128,11 @@
 
   <!-- Right side: skill card labels -->
   <g transform="translate(820, 45)" font-family="Consolas, monospace" font-size="11">
-    <text x="14" y="25" fill="#1e293b" opacity="0.5">security/</text>
-    <text x="54" y="75" fill="#1e293b" opacity="0.5">azure/</text>
-    <text x="24" y="125" fill="#1e293b" opacity="0.5">ai-llm/</text>
-    <text x="64" y="175" fill="#1e293b" opacity="0.5">data/</text>
-    <text x="34" y="225" fill="#1e293b" opacity="0.5">supervisor/</text>
+    <text x="14" y="25" fill="#1e293b" opacity="0.7">security/</text>
+    <text x="54" y="75" fill="#1e293b" opacity="0.7">azure/</text>
+    <text x="24" y="125" fill="#1e293b" opacity="0.7">ai-llm/</text>
+    <text x="64" y="175" fill="#1e293b" opacity="0.7">data/</text>
+    <text x="34" y="225" fill="#1e293b" opacity="0.7">supervisor/</text>
   </g>
 
   <!-- Version pill bottom-right -->
