@@ -1,0 +1,83 @@
+{
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.trimAutoWhitespace": false,
+        "files.trimTrailingWhitespace": false
+    },
+    "[json]": {
+        "editor.tabSize": 4
+    },
+    "[jsonc]": {
+        "editor.tabSize": 4
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "markdown.extension.toc.updateOnSave": false,
+    "markdown.extension.list.indentationSize": "adaptive",
+    "cSpell.words": [
+        "ACT",
+        "Alex",
+        "AlexMaster",
+        "brain-qa",
+        "changelog",
+        "Copilot",
+        "edition",
+        "fabioc",
+        "falsifiability",
+        "frontmatter",
+        "heir",
+        "heirs",
+        "muscle",
+        "muscles",
+        "mermaid",
+        "preflight",
+        "skillset",
+        "supervisor",
+        "trifecta",
+        "trifectas"
+    ],
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/.github-backup-*": true,
+        "**/dist": true,
+        "**/*.vsix": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true,
+        "**/.github-backup-*/**": true
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "explorer.compactFolders": false,
+    "terminal.integrated.scrollback": 10000,
+    "chat.agent.maxRequests": 50,
+    "chat.editing.confirmEditRequestRetry": false,
+    "chat.editing.confirmEditRequestRemoval": false,
+    "chat.commandCenter.enabled": true,
+    "chat.todoListTool.enabled": true,
+    "chat.promptFiles": true,
+    "chat.experimental.implicitContext.enabled": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "chat.experimental.symbolTools.cacheStable": true,
+    "github.copilot.chat.anthropic.cacheBreakpoints.lastTwoMessages": true,
+    "github.copilot.chat.responsesApi.toolSearchTool.enabled": true,
+    "chat.tools.confirmationCarousel.enabled": true,
+    "explorer.autoReveal": true,
+    "workbench.editor.enablePreview": false
+}

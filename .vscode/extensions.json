@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "mermaidchart.vscode-mermaid-chart",
+        "editorconfig.editorconfig",
+        "streetsidesoftware.code-spell-checker",
+        "redhat.vscode-yaml",
+        "eamodio.gitlens",
+        "christian-kohler.path-intellisense",
+        "alefragnani.project-manager",
+        "gruntfuggly.todo-tree"
+    ]
+}
