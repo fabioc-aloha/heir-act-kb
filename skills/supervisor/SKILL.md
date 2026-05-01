@@ -254,7 +254,7 @@ gh repo clone microsoft/skills microsoft-skills
 
 # Community stores (pick what's relevant)
 gh repo clone anthropics/courses anthropics-courses
-gh repo clone AdrianBer);ger/awesome-copilot-instructions awesome-copilot
+gh repo clone AdrianBerger/awesome-copilot-instructions awesome-copilot
 ```
 
 Then run store-sync to generate inventory:

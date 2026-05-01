@@ -65,6 +65,7 @@ Domain-specific knowledge that saves debugging time:
 | [Cloud](skills/cloud/) | 1 | Azure SWA gotchas (12 issues) |
 | [GitHub Actions](skills/github-actions/) | 1 | Version upgrades |
 | [Performance](skills/performance/) | 1 | CPU, memory, network profiling |
+| [Supervisor](skills/supervisor/) | 14 | Fleet governance, Mall curation, release ritual, feedback triage, cross-repo coherence — complete package for running your own Supervisor instance |
 
 [Browse the full catalog →](CATALOG.md)
 
@@ -156,10 +157,4 @@ MIT — use freely, contribute back.
 ## Origin
 
 These skills are extracted from [Alex](https://github.com/fabioc-aloha/alex) — the cognitive architecture for AI-assisted development. The Knowledge Base shares the hard skills without the full brain infrastructure.
-
-
-
-
-
-
 

@@ -1,8 +1,11 @@
 ---
+type: instruction
+lifecycle: stable
 description: "Triage heir feedback from AI-Memory and ship fixes upstream — communication runs through OneDrive, not this repo"
 applyTo: "**"
 inheritance: master-only
-lastReviewed: 2026-01-01
+currency: 2026-05-01
+lastReviewed: 2026-05-01
 ---
 
 # Heir Feedback Triage
