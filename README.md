@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Alex Skill Mall — 303 battle-tested skills for AI-assisted development" width="100%"/>
+  <img src="assets/banner.svg" alt="Alex Skill Mall — 303 curated skills for AI-assisted work across code, cloud, healthcare, research, publishing, and governance" width="100%"/>
 </p>
 
 # Alex Skill Mall
 
-**Battle-tested skills for AI-assisted development**
+**Curated skills for AI-assisted work — from code to healthcare to fleet governance**
 
-This is a curated collection of hard-won knowledge — the gotchas, patterns, and solutions that take hours to discover but seconds to apply. Drop a skill into your `.github/` folder and your AI assistant learns it instantly.
+This is a curated collection of hard-won knowledge across software engineering, cloud infrastructure, healthcare informatics, academic research, data analysis, publishing, security compliance, and AI agent governance. Each skill captures expertise that takes hours to acquire but seconds to apply. Drop a skill into your `.github/` folder and your AI assistant learns it instantly.
 
 ---
 
@@ -31,45 +31,45 @@ Your AI assistant (Copilot, Claude, Cursor, etc.) now has access to the skill.
 
 ### [Skills](skills/) — Hard Knowledge (303 skills)
 
-Domain-specific knowledge that saves debugging time:
+Expert knowledge across 35 domains:
 
 | Category | Count | What They Solve |
 | --- | --- | --- |
+| [Security](skills/security/) | 48 | XSS, injection, API hardening, secrets, threat modeling, SFI compliance, bug hunting |
+| [Quality](skills/quality/) | 25 | Code review, testing strategies, audit patterns, deployment safety |
+| [Documentation](skills/documentation/) | 20 | Mermaid, docs decay, count drift, version stamps, coauthoring |
+| [AI / LLM](skills/ai-llm/) | 19 | MCP servers, agents, RAG, prompt engineering, evals, plugin governance |
+| [Azure](skills/azure/) | 19 | Graph API, Fabric, OpenAI, deployment, Entra, MSAL, IaC import, cost optimization |
+| [Data](skills/data/) | 17 | Power BI modeling, Fabric Lakehouse, KQL, semantic models, DAX, data visualization |
+| [Supervisor](skills/supervisor/) | 17 | Fleet governance, Mall curation, release ritual, feedback triage — complete Supervisor package |
 | [Critical Thinking](skills/critical-thinking/) | 15 | ACT pass, hypothesis debugging, root cause, problem framing |
-| [Quality](skills/quality/) | 17 | Code review, testing strategies, audit patterns, refactoring |
-| [Documentation](skills/documentation/) | 16 | Mermaid, docs decay, count drift, version stamps |
-| [AI / LLM](skills/ai-llm/) | 15 | MCP servers, agents, RAG, prompt engineering, evals |
-| [Azure](skills/azure/) | 15 | Graph API, Fabric, OpenAI, deployment, Entra, MSAL |
 | [Media](skills/media/) | 14 | Banners, SVG, image processing, presentations |
-| [Domain](skills/domain/) | 12 | Localization, healthcare, business analysis |
-| [Security](skills/security/) | 11 | XSS, injection, API hardening, secrets, threat modeling |
+| [Architecture](skills/architecture/) | 14 | Microservices, saga orchestration, API connectors, workflow patterns |
+| [Domain](skills/domain/) | 12 | Healthcare informatics, legal compliance, financial analysis, localization, sales enablement |
 | [Converters](skills/converters/) | 11 | Word, PDF, EPUB, LaTeX, PPTX, HTML, email, plain text |
-| [Data](skills/data/) | 10 | KQL, database design, TMDL, Python analysis |
-| [Architecture](skills/architecture/) | 10 | Defaults-plus-overrides, pipelines, scoring, patterns |
-| [Process](skills/process/) | 8 | Release preflight, git workflow, scope management, risk |
+| [Process](skills/process/) | 10 | Release preflight, git workflow, scope management, risk |
+| [Academic](skills/academic/) | 7 | Editorial judgment, survey verification, research methodology |
+| [Communication](skills/communication/) | 5 | Executive storytelling, stakeholder management, status reports |
 | [Build](skills/build/) | 5 | Path rot, config separation, data-driven layouts |
 | [Cross-Platform](skills/cross-platform/) | 5 | Path handling, regex, line endings, shell quirks |
-| [Communication](skills/communication/) | 5 | Executive storytelling, stakeholder mgmt, status reports |
 | [Publishing](skills/publishing/) | 4 | KDP, book publishing, editorial workflows |
-| [Productivity](skills/productivity/) | 4 | Workflow optimization, automation patterns |
+| [Productivity](skills/productivity/) | 4 | Workflow optimization, deep work, automation patterns |
 | [People](skills/people/) | 4 | Team dynamics, mentoring, collaboration |
+| [Infrastructure](skills/infrastructure/) | 4 | IaC, Bicep AVM, Dockerfiles, ASP.NET containerization |
+| [Operations](skills/operations/) | 4 | Postmortem, observability, monitoring, Copilot usage metrics |
 | [Frontend](skills/frontend/) | 3 | React, CSS, responsive patterns |
 | [VitePress](skills/vitepress/) | 3 | Iframe embed, clean URLs, SPA routing |
 | [VS Code](skills/vscode/) | 3 | Extension patterns, config validation, environment |
-| [Operations](skills/operations/) | 3 | Postmortem, observability, monitoring |
 | [Design](skills/design/) | 2 | UI/UX patterns, design systems |
 | [GitHub](skills/github/) | 2 | README override, Wiki structure |
-| [Infrastructure](skills/infrastructure/) | 2 | IaC, Bicep AVM |
 | [Privacy](skills/privacy/) | 2 | Responsible AI, data protection |
 | [Visual](skills/visual/) | 2 | Image embedding, storage split |
 | [Windows/Node](skills/windows-node/) | 2 | Winget collisions, PAT expiration |
-| [Academic](skills/academic/) | 7 | Editorial judgment, survey verification, research |
 | [Testing](skills/testing/) | 1 | Python mock patching location |
 | [JavaScript](skills/javascript/) | 1 | Boolean string trap |
 | [Cloud](skills/cloud/) | 1 | Azure SWA gotchas (12 issues) |
 | [GitHub Actions](skills/github-actions/) | 1 | Version upgrades |
 | [Performance](skills/performance/) | 1 | CPU, memory, network profiling |
-| [Supervisor](skills/supervisor/) | 14 | Fleet governance, Mall curation, release ritual, feedback triage, cross-repo coherence — complete package for running your own Supervisor instance |
 
 [Browse the full catalog →](CATALOG.md)
 
@@ -107,19 +107,19 @@ Every skill in this repo has passed:
 
 | Gate | Requirement |
 | --- | --- |
-| **Time savings** | Would save >30 min of debugging |
-| **Non-obvious** | Not the first Google/Stack Overflow result |
-| **Battle-tested** | Used in a real project |
-| **Specific** | Solves a concrete problem |
-| **Current** | Still relevant (not fixed in newer version) |
+| **Time savings** | Would save 30+ minutes of work — debugging, research, or ramp-up |
+| **Non-obvious** | Encodes expertise that isn't a quick search away |
+| **Battle-tested** | Used in a real project or domain |
+| **Specific** | Solves a concrete problem with actionable guidance |
+| **Current** | Still relevant and maintained (currency-stamped) |
 
-If you can find it with a simple search, it doesn't belong here.
+If a skill doesn't teach your AI assistant something it wouldn't already know, it doesn't belong here.
 
 ---
 
-## AI Assistant Auto-Discovery
+## Works With Any AI Assistant
 
-This KB includes [`.github/copilot-instructions.md`](.github/copilot-instructions.md) — instructions that tell AI assistants to consult the [CATALOG.md](CATALOG.md) when problems arise.
+This Mall is AI-platform agnostic. Skills are plain Markdown — they work with GitHub Copilot, Claude, Cursor, Windsurf, or any AI assistant that reads `.github/` files. The included [`.github/copilot-instructions.md`](.github/copilot-instructions.md) enables auto-discovery from the [CATALOG.md](CATALOG.md).
 
 ---
 
