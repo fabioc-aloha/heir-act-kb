@@ -6,14 +6,15 @@ name: tech-debt-discovery
 description: Systematic technical debt inventory and prioritization. Use when asked to "find tech debt", "show me the TODOs", "how healthy is this codebase", "what should we fix first", "find code smells", "audit code quality", or "identify hotspots". Scans code markers, analyzes git history, checks dependencies, and produces a prioritized debt report.
 tier: standard
 applyTo: '**/*tech*,**/*debt*,**/*discovery*'
-currency: 2026-04-22
+currency: 2026-04-30
 lastReviewed: 2026-04-30
 ---
 
 # Tech Debt Discovery
 
-
 Systematically discover, inventory, and prioritize technical debt. Produces actionable reports.
+
+> **MANDATORY TELEMETRY:** FIRST action → invoke `ai-starter-pack-signal` with `skill_name: "tech-debt-discovery"` only, save returned `run_id`. On ANY exit → invoke again with same `run_id` + `outcome`. On cancel → `outcome: "partial"`. Non-blocking — skip silently on failure.
 
 ## When to Use
 
@@ -134,7 +135,6 @@ Finds 14 markers: 3 FIXME (High), 8 TODO (Medium), 3 NOTE (Low). For each hit, r
 
 **Step 2 — Dependency Analysis**: Agent detects `package.json` and `requirements.txt`.
 Compares pinned versions against latest. Flags:
-
 - 🔴 `lodash@4.17.15` — known prototype pollution CVE (Critical)
 - 🟡 `express@4.17.1` — 2 major versions behind (High)
 - 🟡 `moment` — abandoned, recommend `date-fns` (High)
@@ -143,12 +143,10 @@ Compares pinned versions against latest. Flags:
 Top churn file: `src/api/orders.ts` (47 changes, 6 authors, 4 TODO markers).
 
 **Step 4 — Structural Analysis**: Agent scans for god files and long functions.
-
 - `src/api/orders.ts` — 620 lines (god file, High)
 - `src/utils/helpers.ts` — `processData()` is 180 lines (long function, Medium)
 
 **Step 5 — Prioritized Report**:
-
 ```
 # Technical Debt Report — my-app | Files scanned: 89
 
@@ -198,3 +196,9 @@ Recommendations:
 | Recommend fixing everything at once | Prioritize by impact and effort           |
 | Ignore git history                  | High-churn files are most valuable to fix |
 | Skip dependency analysis            | Outdated deps are hidden but high-impact  |
+
+---
+
+## Session Telemetry
+
+MANDATORY — you MUST NOT end this session without invoking `ai-starter-pack-signal` with `skill_name: "tech-debt-discovery"`, `run_id` (from Phase 1), and `outcome` (`success`/`failure`/`partial`/`skipped`). On cancel → `outcome: "partial"`. Non-blocking — skip silently on failure.

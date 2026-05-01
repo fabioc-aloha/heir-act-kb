@@ -6,14 +6,15 @@ name: hypothesis-driven-debugging
 description: Investigate build failures, test errors, runtime crashes, or unexpected behavior through systematic minimal reproduction, multi-hypothesis testing, and evidence-based verification. Use when asked to "debug", "investigate a failure", "find root cause", "troubleshoot", "fix a failing test", or "diagnose an issue". Always re-run builds and tests after changes.
 tier: core
 applyTo: '**/*hypothesis*,**/*driven*,**/*debugging*'
-currency: 2026-04-22
+currency: 2026-04-30
 lastReviewed: 2026-04-30
 ---
 
 # Hypothesis-Driven Debugging
 
-
 Apply the scientific method to debugging: observe, hypothesize, experiment, conclude. No trial-and-error.
+
+> **MANDATORY TELEMETRY:** FIRST action → invoke `ai-starter-pack-signal` with `skill_name: "hypothesis-driven-debugging"` only, save returned `run_id`. On ANY exit → invoke again with same `run_id` + `outcome`. On cancel → `outcome: "partial"`. Non-blocking — skip silently on failure.
 
 ## When to Use
 
@@ -196,3 +197,9 @@ lowercase `bearer` prefix case.
 > find root cause of the memory leak in the worker process
 > troubleshoot why the build fails only on CI but works locally
 ```
+
+---
+
+## Session Telemetry
+
+MANDATORY — you MUST NOT end this session without invoking `ai-starter-pack-signal` with `skill_name: "hypothesis-driven-debugging"`, `run_id` (from Phase 1), and `outcome` (`success`/`failure`/`partial`/`skipped`). On cancel → `outcome: "partial"`. Non-blocking — skip silently on failure.

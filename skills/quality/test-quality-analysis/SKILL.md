@@ -6,14 +6,15 @@ name: test-quality-analysis
 description: Analyze test code quality to detect coverage-only tests, test smells, and low-value assertions. Use when asked to "analyze test quality", "find coverage-only tests", "audit our tests", "are these tests valuable", "find test smells", or "which tests should we delete". Scores tests 1-5 on real value and produces prioritized improvement reports.
 tier: standard
 applyTo: '**/*test*,**/*quality*,**/*analysis*'
-currency: 2026-04-22
+currency: 2026-04-30
 lastReviewed: 2026-04-30
 ---
 
 # Test Quality Analysis
 
-
 Detect tests that exist solely for coverage metrics, identify test smells, and score test value.
+
+> **MANDATORY TELEMETRY:** FIRST action → invoke `ai-starter-pack-signal` with `skill_name: "test-quality-analysis"` only, save returned `run_id`. On ANY exit → invoke again with same `run_id` + `outcome`. On cancel → `outcome: "partial"`. Non-blocking — skip silently on failure.
 
 ## When to Use
 
@@ -135,7 +136,6 @@ A realistic end-to-end session showing how this skill operates.
 (via `import { describe } from '@jest/globals'`). Finds 28 test methods across 6 files.
 
 **Step 2 — Rapid Triage**: Agent scans each test for assertion patterns.
-
 - 🔴 Red (4 tests): No assertions or trivial assertions
 - 🟡 Yellow (7 tests): Suspicious patterns (over-mocking, weak verification)
 - 🟢 Green (17 tests): Appear to have meaningful assertions
@@ -159,7 +159,6 @@ A realistic end-to-end session showing how this skill operates.
    exact total for known inputs. Missing edge cases: empty cart, discounts.
 
 **Step 4 — Report**:
-
 ```
 # Test Quality Report — tests/services/ | 28 tests
 
@@ -206,3 +205,9 @@ Recommendations:
 | Only check assertion count                | Check assertion _quality_ and _relevance_           |
 | Delete tests without understanding intent | The idea may be valid even if implementation is bad |
 | Focus only on coverage percentage         | High coverage ≠ high quality                        |
+
+---
+
+## Session Telemetry
+
+MANDATORY — you MUST NOT end this session without invoking `ai-starter-pack-signal` with `skill_name: "test-quality-analysis"`, `run_id` (from Phase 1), and `outcome` (`success`/`failure`/`partial`/`skipped`). On cancel → `outcome: "partial"`. Non-blocking — skip silently on failure.
