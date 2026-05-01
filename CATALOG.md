@@ -1,6 +1,6 @@
 # Skill Catalog
 
-**207 skills** organized by category. Each skill saves 30+ minutes of debugging.
+**217 skills** organized by category. Each skill saves 30+ minutes of debugging.
 
 **Format**: `skill-name` | path | tags | trigger → pattern
 
@@ -408,7 +408,7 @@
 ## Quick Reference by Trigger
 
 | If you see... | Check skill |
-|---------------|-------------|
+| --- | --- |
 | XSS, injection, user input validation | allowlist-over-blocklist, markdown-sanitization-chain |
 | Shell command failing | shell-injection-prevention, terminal-backtick-hazard |
 | Path traversal, `../` in paths | path-traversal-prevention |
@@ -430,7 +430,7 @@
 ## Index by Tag
 
 | Tag | Skills |
-|-----|--------|
+| --- | --- |
 | academic | academic-editorial-judgment, survey-instrument-verification |
 | architecture | defaults-plus-overrides, default-fast-opt-slow, weighted-scoring-matrix, staged-transformation-pipeline, opt-in-workspace-writes |
 | azure | azure-swa-gotchas, azure-identity-msi, azure-subscription-context, azure-cost-management-api |
@@ -449,10 +449,9 @@
 
 ---
 
-## Promoted from Master Alex (40 skills, v0.4.x)
+## Procedural Skills (40+)
 
-These are full procedural skills (150-1600 lines each) promoted from the Master Alex inheritable skill set.
-Unlike the bite-sized gotcha skills above, these are deep procedures that encode hours of engineering judgment.
+Full procedural skills (150-1600 lines each) encoding hours of engineering judgment. Originally promoted from Alex cognitive architecture; now maintained as standalone Mall artifacts compatible with ACT Edition v0.9.0+ and any `.github/skills/` consumer (Copilot, Claude, Cursor).
 Drop-in compatible with any `.github/skills/` consumer (Copilot, Claude, Cursor).
 
 ### Critical Thinking (6)
@@ -581,7 +580,7 @@ Drop-in compatible with any `.github/skills/` consumer (Copilot, Claude, Cursor)
 
 - Production visibility through logs, metrics, traces, and alerting — the three pillars of observabili
 
-### Data (2)
+### Data — Procedural (2)
 
 **kql** | `skills/data/kql/` | kusto, log-analytics, queries
 
@@ -641,11 +640,10 @@ Drop-in compatible with any `.github/skills/` consumer (Copilot, Claude, Cursor)
 
 ---
 
-## Round 2: More Master Alex Skills (62 skills, v0.4.x)
+## Procedural Skills — Wave 2 (62 skills)
 
-Second wave of promotions from the Master Alex inheritable skill set —
-expanding critical thinking, adding privacy/compliance, frontend/VS Code engineering,
-data viz, process & risk, media generation, academic writing, and personal effectiveness.
+Critical thinking, privacy/compliance, frontend/VS Code engineering,
+data viz, process and risk, media generation, academic writing, and personal effectiveness.
 
 ### Critical Thinking (+7)
 
@@ -933,10 +931,9 @@ data viz, process & risk, media generation, academic writing, and personal effec
 
 ---
 
-## Round 3: Domain & Specialty Skills (26 skills, v0.4.x)
+## Procedural Skills — Wave 3 (26 skills)
 
-Third wave broadening the Mall beyond pure dev tooling — converters, domain-specific
-knowledge (healthcare, finance, legal, etc.), soft skills, publishing workflows, and brand management.
+Converters, domain-specific knowledge, soft skills, publishing workflows, and brand management.
 
 ### Converters (+5)
 
@@ -966,7 +963,7 @@ knowledge (healthcare, finance, legal, etc.), soft skills, publishing workflows,
 
 - Full Teams app development patterns.
 
-### Domain Knowledge (+11)
+### Domain Knowledge (+12)
 
 **healthcare-informatics** | `skills/domain/healthcare-informatics/` | clinical, hipaa, healthcare
 
@@ -1012,6 +1009,10 @@ knowledge (healthcare, finance, legal, etc.), soft skills, publishing workflows,
 
 - **Domain**: Multicultural team communication, cultural intelligence, global collaboration
 
+**localization** | `skills/domain/localization/` | i18n, l10n, translation, multilingual
+
+- Software localization and internationalization — i18n architecture, RTL support, ICU MessageFormat, LQA, dialect inheritance
+
 ### People & Learning (+4)
 
 **coaching-techniques** | `skills/people/coaching-techniques/` | coaching, grow, listening
@@ -1056,11 +1057,9 @@ knowledge (healthcare, finance, legal, etc.), soft skills, publishing workflows,
 
 ---
 
-## Round 4: Master Alex Utility Skills (16 skills, v0.4.x)
+## Procedural Skills — Wave 4 (16 skills)
 
-Fourth wave of promotions from the Master Alex inheritable skill set —
-short battle-tested utilities deferred from earlier rounds: dev-tooling, ops,
-reasoning, and quality-of-life skills heirs benefit from on day one.
+Dev-tooling, ops, reasoning, and quality-of-life utilities.
 
 ### Critical Thinking (+2)
 
@@ -1132,15 +1131,11 @@ reasoning, and quality-of-life skills heirs benefit from on day one.
 
 - Sustainable engineering pace — when to stop, when to push, recovery norms
 
-### Quality (+1)
-
-**terminal-command-safety** | `skills/quality/terminal-command-safety/` | terminal, shell, safety
+### Quality — Utilities (+1) | `skills/quality/terminal-command-safety/` | terminal, shell, safety
 
 - Safe terminal command patterns — backtick escaping, output capture, and hang prevention
 
-### Security (+1)
-
-**distribution-security** | `skills/security/distribution-security/` | distribution, signing, supply-chain
+### Security — Utilities (+1) | `skills/security/distribution-security/` | distribution, signing, supply-chain
 
 - Secure software distribution — signing, provenance, supply-chain hygiene, package integrity
 
