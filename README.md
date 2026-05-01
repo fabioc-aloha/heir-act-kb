@@ -25,7 +25,7 @@ Your AI assistant (Copilot, Claude, Cursor, etc.) now has access to the skill.
 
 ## What's Here
 
-### [Skills](skills/) — Hard Knowledge (283 skills)
+### [Skills](skills/) — Hard Knowledge (289 skills)
 
 Domain-specific knowledge that saves debugging time:
 
@@ -156,6 +156,8 @@ MIT — use freely, contribute back.
 ## Origin
 
 These skills are extracted from [Alex](https://github.com/fabioc-aloha/alex) — the cognitive architecture for AI-assisted development. The Knowledge Base shares the hard skills without the full brain infrastructure.
+
+
 
 
 
