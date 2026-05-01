@@ -6,7 +6,9 @@
 
 **Curated skills for AI-assisted work — from code to healthcare to fleet governance**
 
-This is a curated collection of hard-won knowledge across software engineering, cloud infrastructure, healthcare informatics, academic research, data analysis, publishing, security compliance, and AI agent governance. Each skill captures expertise that takes hours to acquire but seconds to apply. Drop a skill into your `.github/` folder and your AI assistant learns it instantly.
+We develop original skills from real project experience, and we curate the best from the broader ecosystem. The Supervisor continuously evaluates skills from Microsoft, community stores, and internal repositories, then promotes the ones that meet our quality bar — with standardized frontmatter, stripped telemetry, and consistent structure.
+
+The result: a single marketplace where your AI assistant finds expert knowledge across software engineering, cloud infrastructure, healthcare informatics, academic research, data analysis, publishing, security compliance, and AI agent governance. Drop a skill into your `.github/` folder and it learns instantly.
 
 ---
 
@@ -101,6 +103,20 @@ Portable config files your tooling consumes directly (VS Code settings, themes, 
 
 ---
 
+## Where Skills Come From
+
+Skills arrive from three streams. Every skill passes the same quality gates regardless of origin.
+
+| Source | How it works | Examples |
+| --- | --- | --- |
+| **Original** | Built from real project friction — the gotcha you hit, documented so nobody hits it again | Shell injection prevention, TMDL linter false positives, boolean string trap |
+| **Curated from external stores** | The Supervisor scans 19+ plugin stores (Microsoft, community, internal), evaluates with a five-dimension scorecard, strips telemetry, standardizes frontmatter, and promotes | CodeQL skills from `.github-private`, Fabric skills from `awesome-copilot`, enterprise patterns from `wshobson-agents` |
+| **Promoted from heirs** | Fleet projects surface patterns through `/feedback` — the Supervisor triages and generalizes | Cross-platform path gotchas, Azure SWA deployment issues |
+
+The [Supervisor](skills/supervisor/) automates this pipeline: `/scan-stores` to discover, `/add-store` to evaluate, `/audit-mall` to keep it fresh.
+
+---
+
 ## Quality Standard
 
 Every skill in this repo has passed:
@@ -141,14 +157,14 @@ git clone https://github.com/fabioc-aloha/Alex_Skill_Mall.git ~/Alex_Skill_Mall
 
 ## Contributing
 
-Found a gotcha worth sharing? [See the contribution guide](CONTRIBUTING.md).
+Found expertise worth sharing? [See the contribution guide](CONTRIBUTING.md).
 
 Skills must:
 
-1. Solve a real problem you've hit
-2. Save meaningful debugging time
-3. Not be easily discoverable via search
-4. Include verification steps
+1. Solve a real problem you've encountered — in code, in a domain, or in a workflow
+2. Save meaningful time (debugging, research, ramp-up, or decision-making)
+3. Encode knowledge that isn't a quick search away
+4. Include actionable guidance, not just theory
 
 ---
 
