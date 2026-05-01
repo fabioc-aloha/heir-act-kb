@@ -3,7 +3,7 @@ type: skill
 lifecycle: stable
 inheritance: inheritable
 name: violation-triager
-description: >
+description: Orchestrate end-to-end SFI-TI3.2.2 workflow — fetch violations, classify, dispatch to remediation skills, generate report
 tier: standard
 applyTo: '**/*violation*,**/*triager*'
 currency: 2026-04-30

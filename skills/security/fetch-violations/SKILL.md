@@ -3,7 +3,7 @@ type: skill
 lifecycle: stable
 inheritance: inheritable
 name: fetch-violations
-description: >
+description: Query S360 Kusto for SFI-TI3.2.2 tenant isolation violations, classify by ViolationTitle, flag autofix-eligible items for downstream remediation
 tier: standard
 applyTo: '**/*fetch*,**/*violations*'
 currency: 2026-04-30

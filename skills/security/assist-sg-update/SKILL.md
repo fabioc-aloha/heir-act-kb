@@ -3,7 +3,7 @@ type: skill
 lifecycle: stable
 inheritance: inheritable
 name: assist-sg-update
-description: >
+description: Generate assisted PRs to correct Security Group ownership for first-party apps flagged by S360 tenant-isolation policy (SFI-TI3.2.2)
 tier: standard
 applyTo: '**/*assist*,**/*update*'
 currency: 2026-04-30

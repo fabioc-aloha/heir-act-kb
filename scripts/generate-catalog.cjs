@@ -17,11 +17,17 @@ function walkDir(dir) {
                 const rel = path.relative(skillsDir, full).replace(/\\/g, '/');
                 const category = rel.split('/')[0];
                 const title = extractTitle(content);
+                // Fallback description: first paragraph after heading
+                let desc = fm.description || '';
+                if (!desc && title) {
+                    const afterTitle = content.match(/^#\s+.+\n+([^#\n][^\n]+)/m);
+                    desc = afterTitle ? afterTitle[1].trim().replace(/^>\s*/, '') : title;
+                }
                 catalog.push({
                     name: fm.name || entry.name,
                     category,
                     path: `skills/${rel}/`,
-                    description: fm.description || '',
+                    description: desc,
                     tier: fm.tier || 'standard',
                     applyTo: fm.applyTo || '',
                     triggers: extractTriggers(fm.description || ''),
