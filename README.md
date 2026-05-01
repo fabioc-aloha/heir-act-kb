@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Alex Skill Mall — 303 battle-tested skills for AI-assisted development" width="100%"/>
+</p>
+
 # Alex Skill Mall
 
 **Battle-tested skills for AI-assisted development**
