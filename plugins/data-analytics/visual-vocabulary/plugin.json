@@ -24,7 +24,7 @@
     "shape": ".S..",
     "category": "data-analytics",
     "tier": "standard",
-    "token_cost": 4200,
+    "token_cost": 3300,
     "requires_edition": ">=1.0.0",
     "requires_plugins": [],
     "artifacts": {

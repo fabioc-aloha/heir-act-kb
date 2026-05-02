@@ -3497,7 +3497,7 @@
       "engines": [
         "copilot"
       ],
-      "token_cost": 4200,
+      "token_cost": 3300,
       "description": "Chart catalog organized by communication goal, CSAR evaluation loop for AI-generated charts, 5-visual rule, override decision framework, and living gallery references",
       "keywords": [
         "chart",
