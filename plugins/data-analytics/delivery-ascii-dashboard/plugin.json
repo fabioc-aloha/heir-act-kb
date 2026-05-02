@@ -1,0 +1,35 @@
+{
+    "name": "delivery-ascii-dashboard",
+    "version": "1.0.0",
+    "description": "Render data dashboards as pure ASCII art in monospace text -- the cheapest, most portable delivery method. No rendering engine, no SVG, no browser. LLM-native output with predictable character geometry.",
+    "author": {
+        "name": "ACT Plugin Mall"
+    },
+    "keywords": [
+        "ascii",
+        "dashboard",
+        "text",
+        "terminal",
+        "monospace",
+        "plain",
+        "portable",
+        "llm-native",
+        "console",
+        "report"
+    ],
+    "engines": [
+        "copilot"
+    ],
+    "shape": ".S..",
+    "category": "data-analytics",
+    "tier": "standard",
+    "token_cost": 2700,
+    "requires_edition": ">=1.0.0",
+    "requires_plugins": [],
+    "artifacts": {
+        "skill": "SKILL.md"
+    },
+    "install_paths": {
+        "skill": ".github/skills/local/delivery-ascii-dashboard/SKILL.md"
+    }
+}

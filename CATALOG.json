@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1",
   "generated_at": "2026-05-02T18:30:48.875Z",
-  "plugin_count": 279,
+  "plugin_count": 281,
   "category_count": 16,
   "categories": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "name": "data-analytics",
-      "count": 18
+      "count": 20
     },
     {
       "name": "reasoning-metacognition",
@@ -7774,6 +7774,66 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/supervisor-fleet/version-management/",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "storytelling-requirements",
+      "title": "storytelling-requirements",
+      "category": "data-analytics",
+      "shape": ".S..",
+      "tier": "standard",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 1900,
+      "description": "Guided requirements template for data storytelling projects -- walks users through audience, Big Idea, questions, data sources, and delivery target before any chart is created",
+      "keywords": [
+        "storytelling",
+        "requirements",
+        "brief",
+        "audience",
+        "big-idea",
+        "dashboard",
+        "report",
+        "template",
+        "CSAR",
+        "guided"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/data-analytics/storytelling-requirements/",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "delivery-ascii-dashboard",
+      "title": "delivery-ascii-dashboard",
+      "category": "data-analytics",
+      "shape": ".S..",
+      "tier": "standard",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 2700,
+      "description": "Render data dashboards as pure ASCII art in monospace text -- the cheapest, most portable delivery method. No rendering engine, no SVG, no browser. LLM-native output with predictable character geometry.",
+      "keywords": [
+        "ascii",
+        "dashboard",
+        "text",
+        "terminal",
+        "monospace",
+        "plain",
+        "portable",
+        "llm-native",
+        "console",
+        "report"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/data-analytics/delivery-ascii-dashboard/",
       "artifacts": [
         "SKILL.md"
       ]

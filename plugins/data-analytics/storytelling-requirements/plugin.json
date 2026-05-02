@@ -1,0 +1,35 @@
+{
+    "name": "storytelling-requirements",
+    "version": "1.0.0",
+    "description": "Guided requirements template for data storytelling projects -- walks users through audience, Big Idea, questions, data sources, and delivery target before any chart is created",
+    "author": {
+        "name": "ACT Plugin Mall"
+    },
+    "keywords": [
+        "storytelling",
+        "requirements",
+        "brief",
+        "audience",
+        "big-idea",
+        "dashboard",
+        "report",
+        "template",
+        "CSAR",
+        "guided"
+    ],
+    "engines": [
+        "copilot"
+    ],
+    "shape": ".S..",
+    "category": "data-analytics",
+    "tier": "standard",
+    "token_cost": 1900,
+    "requires_edition": ">=1.0.0",
+    "requires_plugins": [],
+    "artifacts": {
+        "skill": "SKILL.md"
+    },
+    "install_paths": {
+        "skill": ".github/skills/local/storytelling-requirements/SKILL.md"
+    }
+}
