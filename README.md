@@ -6,13 +6,13 @@ The plugin marketplace for ACT (Artificial Critical Thinking) agents and heirs. 
 
 ## What's Here
 
-282 plugins organized into 16 categories. Each plugin is a self-contained folder with a human-readable README, machine-readable manifest (`plugin.json`), brain artifact (`SKILL.md`), and optional instructions, prompts, or muscles.
+279 plugins organized into 16 categories. Each plugin is a self-contained folder with a human-readable README, machine-readable manifest (`plugin.json`), brain artifact (`SKILL.md`), and optional instructions, prompts, or muscles.
 
 Install plugins into any ACT heir project without losing them to Edition upgrades.
 
 | Metric | Value |
 | --- | --- |
-| Plugins | 282 |
+| Plugins | 279 |
 | Categories | 16 |
 | Shape types | 7 (see notation below) |
 | Install path | `.github/skills/local/` (or matching `local/` dirs) |
@@ -47,7 +47,7 @@ Plugins install into `local/` paths so Edition upgrades never clobber them.
 
 Three axes for discovery: **category** (what domain), **shape** (how complex), **tier** (how specialized).
 
-### Categories (282 plugins)
+### Categories (279 plugins)
 
 | Category | Count | Coverage |
 | --- | --- | --- |
@@ -58,7 +58,7 @@ Three axes for discovery: **category** (what domain), **shape** (how complex), *
 | [Code Quality](plugins/code-quality/) | 24 | Code review, testing, audit patterns, refactoring, coverage |
 | [AI & Agents](plugins/ai-agents/) | 19 | MCP servers, agent design, RAG, prompt engineering, evals |
 | [Media & Graphics](plugins/media-graphics/) | 19 | Banners, SVG, slides, presentations, video, image handling |
-| [Data & Analytics](plugins/data-analytics/) | 17 | Power BI, KQL, Fabric, dashboards, data visualization |
+| [Data & Analytics](plugins/data-analytics/) | 18 | Power BI, KQL, Fabric, dashboards, data visualization, chart selection |
 | [Reasoning & Metacognition](plugins/reasoning-metacognition/) | 15 | ACT pass, hypothesis debugging, root cause, calibration |
 | [Platform & Tooling](plugins/platform-tooling/) | 14 | VS Code, cross-platform, Node.js, frontend patterns |
 | [Architecture & Patterns](plugins/architecture-patterns/) | 13 | Microservices, saga, API design, workflow orchestration |

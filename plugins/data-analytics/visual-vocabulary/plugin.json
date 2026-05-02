@@ -1,0 +1,36 @@
+{
+    "name": "visual-vocabulary",
+    "version": "1.0.0",
+    "description": "Chart catalog organized by communication goal, CSAR evaluation loop for AI-generated charts, 5-visual rule, override decision framework, and living gallery references",
+    "author": {
+        "name": "ACT Plugin Mall"
+    },
+    "keywords": [
+        "chart",
+        "visual",
+        "vocabulary",
+        "catalog",
+        "selection",
+        "CSAR",
+        "evaluation",
+        "override",
+        "dashboard",
+        "storytelling",
+        "gallery"
+    ],
+    "engines": [
+        "copilot"
+    ],
+    "shape": ".S..",
+    "category": "data-analytics",
+    "tier": "standard",
+    "token_cost": 4200,
+    "requires_edition": ">=1.0.0",
+    "requires_plugins": [],
+    "artifacts": {
+        "skill": "SKILL.md"
+    },
+    "install_paths": {
+        "skill": ".github/skills/local/visual-vocabulary/SKILL.md"
+    }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1",
   "generated_at": "2026-05-02T18:30:48.875Z",
-  "plugin_count": 278,
+  "plugin_count": 279,
   "category_count": 16,
   "categories": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "name": "data-analytics",
-      "count": 17
+      "count": 18
     },
     {
       "name": "reasoning-metacognition",
@@ -3484,6 +3484,37 @@
       "requires_edition": ">=1.0.0",
       "requires_plugins": [],
       "path": "plugins/data-analytics/tmdl-linter-false-positives/",
+      "artifacts": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "visual-vocabulary",
+      "title": "visual-vocabulary",
+      "category": "data-analytics",
+      "shape": ".S..",
+      "tier": "standard",
+      "engines": [
+        "copilot"
+      ],
+      "token_cost": 4200,
+      "description": "Chart catalog organized by communication goal, CSAR evaluation loop for AI-generated charts, 5-visual rule, override decision framework, and living gallery references",
+      "keywords": [
+        "chart",
+        "visual",
+        "vocabulary",
+        "catalog",
+        "selection",
+        "CSAR",
+        "evaluation",
+        "override",
+        "dashboard",
+        "storytelling",
+        "gallery"
+      ],
+      "requires_edition": ">=1.0.0",
+      "requires_plugins": [],
+      "path": "plugins/data-analytics/visual-vocabulary/",
       "artifacts": [
         "SKILL.md"
       ]
