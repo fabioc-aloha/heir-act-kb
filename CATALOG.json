@@ -283,8 +283,8 @@
       "category": "supervisor-fleet",
       "shape": ".S..",
       "tier": "standard",
-      "description": "Detect, create, and manage the AI-Memory fleet communication channel on the user's cloud drive",
-      "token_cost": 2200,
+      "description": "Detect, create, and manage the AI-Memory fleet communication channel across OneDrive, iCloud, Dropbox, Google Drive, Box, MEGA, pCloud, and Nextcloud",
+      "token_cost": 1900,
       "path": "plugins/supervisor-fleet/ai-memory-setup",
       "artifacts": [
         "SKILL.md"

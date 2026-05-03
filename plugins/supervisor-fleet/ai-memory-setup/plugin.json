@@ -1,7 +1,7 @@
 {
     "name": "ai-memory-setup",
-    "version": "1.0.0",
-    "description": "Detect, create, and manage the AI-Memory fleet communication channel on the user's cloud drive",
+    "version": "1.1.0",
+    "description": "Detect, create, and manage the AI-Memory fleet communication channel across OneDrive, iCloud, Dropbox, Google Drive, Box, MEGA, pCloud, and Nextcloud",
     "author": {
         "name": "ACT Plugin Mall"
     },
@@ -9,6 +9,13 @@
         "ai-memory",
         "fleet",
         "onedrive",
+        "icloud",
+        "dropbox",
+        "google-drive",
+        "box",
+        "mega",
+        "pcloud",
+        "nextcloud",
         "cloud",
         "feedback",
         "announcements",
@@ -21,7 +28,7 @@
     "shape": ".S..",
     "category": "supervisor-fleet",
     "tier": "standard",
-    "token_cost": 2200,
+    "token_cost": 1900,
     "requires_edition": ">=0.9.9",
     "requires_plugins": [],
     "artifacts": {
