@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "name": "dfd-threat-model",
+  "token_cost": 32440.0,
+  "install_path": "AI-Memory/knowledge/dfd-threat-model/",
+  "category": "security",
+  "description": "Data flow diagram threat modeling: 4 skills + 12 agents for building threat models from code. 60 minutes to a complete model, 10 minutes to keep current. Scales to large monorepos.",
+  "type": "knowledge",
+  "use_phase": "planning",
+  "version": "1.0.0",
+  "source_store": "agency-microsoft/playground",
+  "keywords": [
+    "dfd",
+    "threat-model",
+    "data-flow",
+    "security",
+    "monorepo"
+  ],
+  "source_plugin": "dfd-threat-model"
+}

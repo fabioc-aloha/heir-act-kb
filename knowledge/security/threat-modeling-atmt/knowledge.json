@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "name": "threat-modeling-atmt",
+  "token_cost": 25817.0,
+  "install_path": "AI-Memory/knowledge/threat-modeling-atmt/",
+  "category": "security",
+  "description": "Automated Threat Modelling (ATMT): 3 skills + 16 agents for generating threat models from repositories and Azure DevOps pipelines, detecting architectural components, and producing risk reports.",
+  "type": "knowledge",
+  "use_phase": "planning",
+  "version": "1.0.0",
+  "source_store": "agency-microsoft/playground",
+  "keywords": [
+    "threat-model",
+    "security",
+    "atmt",
+    "risk",
+    "architecture",
+    "stride"
+  ],
+  "source_plugin": "threat-modeling"
+}

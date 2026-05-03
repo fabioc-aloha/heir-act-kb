@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "name": "code-quality-audit",
+  "token_cost": 22764.0,
+  "install_path": "AI-Memory/knowledge/code-quality-audit/",
+  "category": "code-quality",
+  "description": "Multi-agent code quality audit: 1 skill + 8 agents for systematic code quality assessment across multiple dimensions.",
+  "type": "knowledge",
+  "use_phase": "review",
+  "version": "1.0.0",
+  "source_store": "agency-microsoft/playground",
+  "keywords": [
+    "code-quality",
+    "audit",
+    "review",
+    "multi-agent",
+    "engineering-systems"
+  ],
+  "source_plugin": "code-quality-audit"
+}

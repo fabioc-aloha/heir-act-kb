@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "name": "deep-wiki",
+  "token_cost": 12112.0,
+  "install_path": "AI-Memory/knowledge/deep-wiki/",
+  "category": "documentation",
+  "description": "AI-powered wiki generator for code repositories: 9 skills + 3 agents for analyzing codebases and generating comprehensive documentation wikis.",
+  "type": "knowledge",
+  "use_phase": "planning",
+  "version": "1.0.0",
+  "source_store": "agency-microsoft/playground",
+  "keywords": [
+    "wiki",
+    "documentation",
+    "code-analysis",
+    "repository",
+    "knowledge-base"
+  ],
+  "source_plugin": "deep-wiki"
+}

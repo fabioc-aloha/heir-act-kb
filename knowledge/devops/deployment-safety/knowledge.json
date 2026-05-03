@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "name": "deployment-safety",
+  "token_cost": 42494.0,
+  "install_path": "AI-Memory/knowledge/deployment-safety/",
+  "category": "devops",
+  "description": "Deployment safety practices: 3 skills + 6 agents for engineering systems deployment safety, risk assessment, and rollback planning.",
+  "type": "knowledge",
+  "use_phase": "review",
+  "version": "1.0.0",
+  "source_store": "agency-microsoft/playground",
+  "keywords": [
+    "deployment",
+    "safety",
+    "rollback",
+    "risk",
+    "release",
+    "production"
+  ],
+  "source_plugin": "deployment-safety"
+}

@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "name": "compliance-engineering",
+  "token_cost": 54576.0,
+  "install_path": "AI-Memory/knowledge/compliance-engineering/",
+  "category": "compliance",
+  "description": "Security and privacy compliance engineering: 35 skills + 5 agents for threat modeling, PR security review, code review, and producing actionable compliance artifacts.",
+  "type": "knowledge",
+  "use_phase": "audit",
+  "version": "1.0.0",
+  "source_store": "agency-microsoft/playground",
+  "keywords": [
+    "compliance",
+    "security",
+    "privacy",
+    "threat-model",
+    "pr-review",
+    "audit"
+  ],
+  "source_plugin": "mai-compliance-engineering-agents"
+}

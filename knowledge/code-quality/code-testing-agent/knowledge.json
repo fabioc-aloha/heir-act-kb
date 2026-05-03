@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "name": "code-testing-agent",
+  "token_cost": 8156.0,
+  "install_path": "AI-Memory/knowledge/code-testing-agent/",
+  "category": "code-quality",
+  "description": "Multi-agent test generation pipeline: 1 skill + 8 agents coordinating to generate comprehensive, workable unit tests for any programming language.",
+  "type": "knowledge",
+  "use_phase": "implementation",
+  "version": "1.0.0",
+  "source_store": "agency-microsoft/playground",
+  "keywords": [
+    "testing",
+    "unit-tests",
+    "test-generation",
+    "multi-agent",
+    "coverage"
+  ],
+  "source_plugin": "code-testing-agent"
+}

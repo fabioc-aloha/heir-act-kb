@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "ACT Plugin Mall"
+  },
+  "name": "eval-agent",
+  "token_cost": 19676.0,
+  "install_path": "AI-Memory/knowledge/eval-agent/",
+  "category": "code-quality",
+  "description": "Evaluation set management: 12 skills + 1 agent for creating, updating, and running evaluation sets. Add entities, generate queries, track quality metrics.",
+  "type": "knowledge",
+  "use_phase": "review",
+  "version": "1.0.0",
+  "source_store": "agency-microsoft/playground",
+  "keywords": [
+    "eval",
+    "evaluation",
+    "testing",
+    "quality",
+    "metrics",
+    "benchmark"
+  ],
+  "source_plugin": "eval-agent"
+}
